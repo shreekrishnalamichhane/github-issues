@@ -1,0 +1,26 @@
+name: Feature Request
+description: Make a feature request
+title: "[Feat]: "
+labels: ["Feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before making a new feature request, please search for the behaviour in the existing requests.
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature description
+      description: What's on your mind?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: More details
+      description: Are there any additional details you can provide?
+  - type: textarea
+    attributes:
+      label: "Screenshots (if applicable)"
+      description: "Provide any relevant screenshots."
+      placeholder: "Add relevant screenshots here."
