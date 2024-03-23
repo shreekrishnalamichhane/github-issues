@@ -1,0 +1,24 @@
+name: Discussion
+description: Start a discussion topic
+title: "[Discussion]: "
+labels: ["Discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before starting a new discussion topic, please search for the behaviour in the existing issues. 
+
+        ---
+
+  - type: textarea
+    id: discussion-description
+    attributes:
+      label: Description
+      description: What's bothering you? Be frank.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Screenshots (if applicable)"
+      description: "Provide any relevant screenshots."
+      placeholder: "Add relevant screenshots here."
